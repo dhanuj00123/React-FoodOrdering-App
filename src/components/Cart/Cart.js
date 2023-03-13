@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import Card from "../UI/Card";
 import classes from "./Cart.module.css";
 import CartItem from "./CartItem";
-
+//this is a test comment for checking if bracnhing is working in git hub
 const Cart = (props) => {
   const cartItems = useSelector((state) => state.cart.items);
   return (
